@@ -174,7 +174,7 @@ title: A little bit further
 duration: 5
 ---
 
-# A little bit firther
+# A little bit further
 
 Let's go a little bit further and deploy our bot in our own webpage.
 Botfuel uses a static folder 

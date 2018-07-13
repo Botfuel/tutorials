@@ -39,7 +39,7 @@ ngrok http 5000
 Botfuel Dialog bots run on port 5000 by default. If you have changed the port, change `5000` to the one you’re using.
 This will give you a screen like this one:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/images/ngrok.png" alt="ngrok"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/ngrok.png" alt="ngrok"/>
 
 Locate the forwarding link (in our case `https://3efeb72c.ngrok.io`). All requests to `https://3efeb72c.ngrok.io` will be forwarded to your bot.
 
