@@ -158,4 +158,4 @@ You have reached the end of this tutorial. You can now deploy a bot in productio
 
 Learn more :
 * The SDK <a href="https://docs.botfuel.io/" target="_blank">documentation</a>
-* Deploy your chatbot on Facebook Messenger with <a href="http://localhost:4200/#/codelab/connect-messenger?step=1" target="_blank">this tutorial</a>
+* Deploy your chatbot on Facebook Messenger with <a href="https://tutorials.botfuel.io/#/codelab/connect-messenger?step=1" target="_blank">this tutorial</a>
