@@ -18,7 +18,7 @@ A la fin de ce tutoriel, vous aurez construit un bot capable de répondre à un 
 Le but de ce tutoriel est donc de créer un bot qui donnera la météo en utilisant l'API de World Weather Online.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/demo.png" title="Final result" alt="Final result" targer="_blank" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/demo.png" title="Final result" alt="Final result" targer="_blank" />
 </center>
 
 Vous pouvez voir une démo du bot <a href="https://botfuel-webchat-demo.herokuapp.com/weather" target="_blank">ici</a>
@@ -100,11 +100,11 @@ Dans la page `Trainer/Intents`, cliquez sur le bouton `Add intent` afin de crée
 La section des `Training phrases` liste toutes les phrases utilisées pour entraîner le bot. Entrez ce que vous pensez que vos utilisateurs demanderont au bot.
 Ici, entrez la phrase "Bonjour bot" puis cliquez sur `entrer`. Cliquez ensuite sur le bouton `Save`.
 
-![Adding an intent](https://github.com/Botfuel/tutorials/raw/master/weather-bot/getting_started-create_intent.png "Adding an intent")
+![Adding an intent](https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/getting_started-create_intent.png "Adding an intent")
 
 Faites la même chose pour créer un intent labellisé `name`:
 
-![Adding an intent 2](https://github.com/Botfuel/tutorials/raw/master/weather-bot/getting_started-create_intent2.png "Adding an intent 2")
+![Adding an intent 2](https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/getting_started-create_intent2.png "Adding an intent 2")
 
 Notez que ici, quand votre entrez `Mon nom est Bob`, notre trainer détecte que Bob est un prénom, une des 31 entités reconnues par défaut par Botfuel.
 
@@ -112,7 +112,7 @@ Notez que ici, quand votre entrez `Mon nom est Bob`, notre trainer détecte que 
 
 Vous pouvez vérifier que votre bot est bien entraîné en utilisant le panneau de test sur la droite de votre écran en tapant une phrases proche de celles utilisées pour l'entraînement:
 
-![Test panel](https://github.com/Botfuel/tutorials/raw/master/weather-bot/getting_started-testpanel.png "Test panel")
+![Test panel](https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/getting_started-testpanel.png "Test panel")
 
 
 --sep--
@@ -155,7 +155,7 @@ La dernière ligne indique que votre bot écoute les messages sur `http://localh
 Rendez-vous dans la partie `Channel > Webchat` de votre bot sur <a href="https://app.botfuel.io" target="_blank">https://app.botfuel.io</a>
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/webchat-config.png" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat-config.png" />
 </center>
 
 Vous pouvez voir deux champs sur la partie droite de votre écran :
@@ -176,7 +176,7 @@ ngrok http 5000
 Vous devriez ensuite avoir quelque chose comme ci-dessous : 
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/ngrok.png" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/ngrok.png" />
 </center>
 
 Copiez l'adresse située en face de Forwarding (ici `https://3efeb72c.ngrok.io`). Toutes les requètes envoyées à cette adresse seront redirigées vers votre bot.
@@ -184,7 +184,7 @@ Copiez l'adresse située en face de Forwarding (ici `https://3efeb72c.ngrok.io`)
 
 Dans le champ `Bot endpoint`, mettez l'url de votre bot
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/webchat-how-endpoint.png">
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat-how-endpoint.png">
 </center>
 
 Assurez vous d'avoir bien ajouté `/webhook` à la fin de l'adresse.
@@ -192,7 +192,7 @@ Assurez vous d'avoir bien ajouté `/webhook` à la fin de l'adresse.
 Le champ `Allowed origin` permet d'entrer une liste des sites internet ayant l'autorisation d'afficher le Webchat 
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/webchat-how-origins.png">
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat-how-origins.png">
 </center>
 
 Cliquez ensuite sur le bouton `Save`.
@@ -202,7 +202,7 @@ Cliquez ensuite sur le bouton `Save`.
 Vous pouvez vérifier que votre chatbot marche dans le Webchat Playground en envoyant des messages.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/webchat-start-conversation.png">
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat-start-conversation.png">
 </center>
 
 
@@ -272,7 +272,7 @@ Voici un exemple de page web intégrant le Webchat.
 Il ne vous reste plus qu'à lancer votre page html en double cliquant dessus.
 Vous devriez avoir une page web avec le bouton  pour lancer le chatbot en bas à droite.
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/webchat0.png" target="_blank" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat0.png" target="_blank" />
 </center>
 
 --sep--
@@ -288,7 +288,7 @@ duration: 12
 Nous allons devoir rajouter un nouvel `intent` dans le trainer. Pour cela, répétez ce que vous avez fait à l'étape 3 pour créer l'intent météo.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/create-intent-meteo.png" target="_blank" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/create-intent-meteo.png" target="_blank" />
 </center>
 
 
@@ -512,7 +512,7 @@ if (missingEntities.size !== 0) {
 Vous devriez arriver au résultat ci-dessous lorsque vous demandez la météo sans spécifier de jour.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/quickreplies.png" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/quickreplies.png" />
 </center>
 
 --sep--
@@ -572,7 +572,7 @@ const images = {
 Utilisez ce mapping afin d'afficher une image correspondant à la description de la prévision météo comme ci-dessous :
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/demo.png" title="Final result" alt="Final result" targer="_blank" />
+<img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/demo.png" title="Final result" alt="Final result" targer="_blank" />
 </center>
 
 --sep--

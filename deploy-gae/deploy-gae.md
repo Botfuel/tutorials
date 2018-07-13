@@ -74,7 +74,7 @@ Go to <a href="https://console.cloud.google.com" target="_blank">https://console
 
 In the navbar, click on `Select a project`, then on `NEW PROJECT` to create a new project for your chatbot.
 
-![Create new project](https://github.com/Botfuel/tutorials/raw/master/deploy-gae/create_cloud_project.png "Create new project")
+![Create new project](https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/create_cloud_project.png "Create new project")
 
 ## Install the SDK
 
@@ -120,7 +120,7 @@ gcloud app deploy
 ```
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/deploy.png" alt="Deploy project" title="Deploy project"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/deploy.png" alt="Deploy project" title="Deploy project"/>
 </center>
 
 Your bot is now deployed on Google App Engine
@@ -137,7 +137,7 @@ Now, to see it in action in the Botfuel Webchat, go to the <a href="https://app.
 
 Select your bot app and go to the `Channel > Webchat` page.
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/webchat-config.png" alt="Webchat configuration"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-config.png" alt="Webchat configuration"/>
 
 You can see two input text fields on the right panel:
 * Bot endpoint
@@ -148,14 +148,14 @@ The input `Bot endpoint` is the URL to which Botfuel Webchat will send the user 
 In the `Bot endpoint`, put the url of your bot. You can find the url in your console once the deployment is done.
 
 <center>
-  <img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/webchat-endpoint.png">
+  <img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-endpoint.png">
 </center>
 
 Don't forget to add the `/webhook`at the end of the url.
 
 The `Allowed origin` input lists the urls authorized to display and run the bot:
 <center>
-  <img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/webchat-origins.png" alt="Webchat playground test"/>
+  <img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-origins.png" alt="Webchat playground test"/>
 </center>
 
 Clien on the `save button``
@@ -165,7 +165,7 @@ Clien on the `save button``
 You can test your chatbot in the Webchat playground.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/webchat-start-conversation.png">
+<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-start-conversation.png">
 </center>
 
 --sep--
@@ -221,7 +221,7 @@ gcloud app deploy
 You bot is now deployed and ready to be used. Simply go to the url of your bot followed by `/static`. In our case `https://getting-started-209712.appspot.com/static/` and you will be able to talk to your bot
 =
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/webchat-live.png">
+<img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-live.png">
 </center>
 
 

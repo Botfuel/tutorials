@@ -40,19 +40,19 @@ We will create a Botfuel App and use [Botfuel Trainer](/trainer/overview) to tra
 
 Visit the [Botfuel Developer Portal](https://app.botfuel.io/) and create an account:
 
-![Sign up](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-signup.png "Sign up")
+![Sign up](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-signup.png "Sign up")
 
 ## Create the app
 
 Once you have created an account and are logged in, create an app by clicking on the `Create App` button:
 
-![Creating an app](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-create_app.png "Creating an app")
+![Creating an app](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-create_app.png "Creating an app")
 
 Give your app a namem, an optional description, and select a language.
 
 The language determines what language your bot will understand. Under the hood, our NLP APIs behave differently based on the language you choose. You won’t be able to change it later, so choose carefully!
 
-![Creating an app 2](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-create_app2.png "Creating an app")
+![Creating an app 2](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-create_app2.png "Creating an app")
 
 
 --sep--
@@ -70,11 +70,11 @@ On the `Trainer/Intents` page, click on the `Add intent` button to create an int
 The `Training phrases` lists all the phrases used to train your bot. Enter here what you believe your user may ask the bot.
 Here, fill in the phrase “Hello bot.” and then press `enter`. Click the button `Save`.
 
-![Adding an intent](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-create_intent.png "Adding an intent")
+![Adding an intent](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-create_intent.png "Adding an intent")
 
 Repeat the same steps and create an intent labeled `name`:
 
-![Adding an intent 2](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-create_intent2.png "Adding an intent 2")
+![Adding an intent 2](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-create_intent2.png "Adding an intent 2")
 
 Note here, when you put `My name is Bob.`, our trainer detects Bob as a forename, one of 31 built-in entities recognised by Botfuel.
 
@@ -82,7 +82,7 @@ Note here, when you put `My name is Bob.`, our trainer detects Bob as a forename
 
 You can check that the app is properly trained by using the test panel on the right of your screen and typing a sentence that is close to one of your training phrases:
 
-![Test panel](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-testpanel.png "Test panel")
+![Test panel](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-testpanel.png "Test panel")
 
 --sep--
 ---
@@ -145,7 +145,7 @@ duration: 6
 
 Locate the `Credentials` section in the `App settings` page and take note of the credentials. We will use the `BOTFUEL_APP_TOKEN`, `BOTFUEL_APP_ID` and `BOTFUEL_APP_KEY` values to run the bot.
 
-![Credentials](https://github.com/Botfuel/tutorials/raw/master/getting-started/getting_started-credentials.png "Credentials")
+![Credentials](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-credentials.png "Credentials")
 
 ## Run the bot
 

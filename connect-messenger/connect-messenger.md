@@ -39,7 +39,7 @@ ngrok http 5000
 Botfuel Dialog bots run on port 5000 by default. If you have changed the port, change `5000` to the one you’re using.
 This will give you a screen like this one:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/ngrok.png" alt="ngrok"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/images/ngrok.png" alt="ngrok"/>
 
 Locate the forwarding link (in our case `https://3efeb72c.ngrok.io`). All requests to `https://3efeb72c.ngrok.io` will be forwarded to your bot.
 
@@ -64,15 +64,15 @@ Make note of the **page access token** (`FB_PAGE_ACCESS_TOKEN`) given to you. We
 Once your app is created, we need to setup our bot endpoint as the Messenger webhook callback URL.
 Go to your Facebook App and click on Webhooks in the side menu:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-menu.png" alt="Messenger Apps Menu"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-menu.png" alt="Messenger Apps Menu"/>
 
 Then click on the `Edit Subscription` button:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-webhook.png" alt="Messenger Webhook"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-webhook.png" alt="Messenger Webhook"/>
 
 Set the `Callback URL` field to `<NGROK_URL>/webhook`:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-url.png" alt="Messenger URL"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-url.png" alt="Messenger URL"/>
 
 Make sure that you added `/webhook` at the end of the URL.
 Set the `Verify Token` field to the value of your choice (it can be whatever you want, as long as you use the same value when running the bot in a later step) and make note of it then click on `Verify and Save`.
@@ -81,7 +81,7 @@ We will refer to the **Verify Token** as `FB_VERIFY_TOKEN`.
 
 Also, make sure your app has subscribed to messages:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-messages.png" alt="Messenges subscription"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-messages.png" alt="Messenges subscription"/>
 
 --sep--
 ---
@@ -154,10 +154,10 @@ duration: 3
 To test your chatbot, go to https://www.facebook.com/bookmarks/pages and click on the page your bot is linked to.
 Now hover over the `Send Message` button and click the `Test Button` link. This will open a chat window within the Facebook Page, which will forward the messages to your chatbot:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-button.png" alt="Messenger button"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-button.png" alt="Messenger button"/>
 
 Here you can test if the connection is successful:
 
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/messenger-test.png" alt="Messenger test"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-test.png" alt="Messenger test"/>
 
 Congratulations! You have connected a Botfuel Dialog chatbot to Facebook Messenger!
