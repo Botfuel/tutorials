@@ -1,12 +1,12 @@
 ---
 title: Connecting to Webchat
-duration:
+duration: 19
 ---
 
 --sep--
 ---
 title: Introduction
-duration: 5
+duration: 2
 ---
 
 # Introduction
