@@ -34,7 +34,7 @@ duration: 3
 
 # Create a Botfuel App
 
-We will create a Botfuel App and use [Botfuel Trainer](/trainer/overview) to train our bot on sample user messages. The [Labs plan](https://www.botfuel.io/en/pricing) is free up to 5000 user messages per month. This should be way enough to do all our tutorials.
+We will create a Botfuel App and use <a href="https://docs.botfuel.io/trainer/overview" target="_blank">Botfuel Trainer</a> to train our bot on sample user messages. The [Labs plan](https://www.botfuel.io/en/pricing) is free up to 5000 user messages per month. This should be way enough to do all our tutorials.
 
 ## Create a Botfuel developer account
 
@@ -117,7 +117,7 @@ Notice that the bot ships with two dialogs named `greetings` and `name`. It's im
 
 ## Bot components
 
-A bot has four basic building components (for more details, see our [concepts](/platform/concepts)):
+A bot has four basic building components (for more details, see our <a href="https://docs.botfuel.io/platform/concepts" target="_blank">concepts</a>):
 
 * Dialogs: specify what user input is needed to respond. They interact with the brain and compute the data (e.g, entities, plain text) that will be passed to the corresponding View
 * Extractors: extract entities (e.g., forename, number, color, city...) that can then be used by the bot

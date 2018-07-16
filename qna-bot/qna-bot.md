@@ -147,7 +147,7 @@ From your app's page, access the `Connect` tab in the `Channels/Webchat` page to
 ![Webchat configuration](https://github.com/Botfuel/tutorials/raw/master/qna-bot/images/howto_qna-webchat_config.png "Webchat configuration")
 If you want to test the bot on your personal computer, make sure that it is reachable from the outside. If needed, you can use reverse port forwarding, ngrok or a similar service.  
 
-For more assistance on configuring Botfuel Webchat, see [Connecting to Webchat](./connecting-to-webchat).
+For more assistance on configuring Botfuel Webchat, see <a href="/#/codelab/connecting-webchaat" target="_blank">Connecting to Webcha</a>.
 
 ## Test
 

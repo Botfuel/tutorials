@@ -17,7 +17,7 @@ In this tutorial you’ll learn how to test your chatbot using <a href="https://
 
 The goal of this tutorial is to learn how to automate the tests you would have to do manually to make sure your chatbot works as expected.
 
-For this tutorial, we’ll start from the <a href="https://github.com/Botfuel/botfuel-sample-starter">starter sample bot</a>. Make sure you have it running by following the <a href="./getting-started">Getting Started</a> tutorial up until the <a href="./getting-started#installation">installation</a> part.
+For this tutorial, we’ll start from the <a href="https://github.com/Botfuel/botfuel-sample-starter">starter sample bot</a>. Make sure you have it running by following the <a href="/#/codelab/getting-started" target="_blank">Getting Started</a> tutorial.
 
 For instance, the starter sample bot has the following behavior:
 

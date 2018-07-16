@@ -16,7 +16,7 @@ A Chatbot built with Botfuel Dialog is a simple webserver, therefore, deploying 
 In this tutorial, you'll learn how to deploy your chatbot using Botfuel Webchat to Google App Engine.
 
 ## what you will need
-* Have completed the <a href="/#/codelab/getting-started) tutorial" target="_blank">Getting Started</a>
+* Have completed the <a href="/#/codelab/getting-started" target="_blank">Getting Started tutorial</a>
 * A working chatbot built with Botfuel dialog
 * A <a href="https://console.cloud.google.com//" target="_blank">Google Cloud account</a>
 

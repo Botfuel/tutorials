@@ -589,5 +589,5 @@ Vous êtes maintenant en mesure de faire un bot en utilisant le SDK de Botfuel.
 
 Pour en savoir plus :
 * La <a href="https://docs.botfuel.io/" target="_blank">documentation</a> du SDK
-* Déployez votre chatbot sur Heroku avec <a href="https://tutorials.botfuel.io#/codelab/deploy-heroku?step=1" target="_blank">ce tutoriel</a> (en anglais)
-* Déployez votre chatbot sur Facebook Messenger en suivant <a href="https://tutorials.botfuel.io#/codelab/connect-messenger?step=1" target="_blank">ce tutoriel</a>
+* Déployez votre chatbot sur Heroku avec <a href="/#/codelab/deploy-heroku?step=1" target="_blank">ce tutoriel</a> (en anglais)
+* Déployez votre chatbot sur Facebook Messenger en suivant <a href="/#/codelab/connect-messenger?step=1" target="_blank">ce tutoriel</a>

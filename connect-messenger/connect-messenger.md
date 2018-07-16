@@ -24,13 +24,13 @@ duration: 5
 
 The first thing you have to do is get the callback URL of your bot. There are several ways of getting your bot online:
 
-* Use [ngrok](http://ngrok.com/download) to expose your local bot (recommended for quick prototyping, please see a [detailed article](https://medium.com/botfuel/how-to-expose-a-local-development-server-to-the-internet-c31532d741cc) on this subject)
-* Host your bot on Heroku ([see how here](./deploying-to-heroku))
+* Use [ngrok](http://ngrok.com/download) to expose your local bot (recommended for quick prototyping, please see a <a href="https://medium.com/botfuel/how-to-expose-a-local-development-server-to-the-internet-c31532d741cc" target="_blank">detailed article</a> on this subject)
+* Host your bot on Heroku (<a href="/#/codelab/deploy-heroku">see how here</a>)
 * Use another service or your own server
 
 In this tutorial we will use ngrok, but the same instructions apply to the other solutions.
 
-Follow the [instructions](http://ngrok.com/download) for your operating system then run the following command:
+Follow the <a href="http://ngrok.com/download" target="_blank">instructions</a> for your operating system then run the following command:
 
 ```shell
 ngrok http 5000
@@ -91,7 +91,7 @@ duration: 10
 
 ## Set up the bot
 
-If you don't already have a Botfuel App, please follow the installation part of our [Getting Started tutorial](./getting-started#installation) and make sure you have located your app’s credentials `App Id`, `App Key` and `App Token`. We will use them in this tutorial.
+If you don't already have a Botfuel App, please follow the installation part of our <a href="/#/codelab/getting-started" target="_blank">Getting Started tutorial</a> and make sure you have located your app’s credentials `App Id`, `App Key` and `App Token`. We will use them in this tutorial.
 
 Let’s make a copy of the sample starter bot, which can respond to a greeting and say back your name.
 
