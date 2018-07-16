@@ -8,6 +8,14 @@
   "tutorials": [
     {
       "id": "getting-started",
+      "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/connecting-webchat/connecting-webchat.md",
+      "title": "Connecting Webchat",
+      "duration": 50,
+      "language": "en",
+      "date": "Mon Jul 16 2018 00:00:00 GMT+0100"
+    },
+    {
+      "id": "getting-started",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/getting-started/getting-started.md",
       "title": "Getting started",
       "duration": 50,
