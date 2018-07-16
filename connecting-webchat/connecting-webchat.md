@@ -195,7 +195,7 @@ title: Congratulations
 duration: 1
 ---
 
-#Congratulations!
+# Congratulations!
 
 You have reached the end of this tutorial and have set up the Botfuel Webchat on your website and connected it with your chatbot!
 
