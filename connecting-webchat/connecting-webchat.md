@@ -67,9 +67,10 @@ If you set your app credentials and the config file correctly, you should see:
 It means your bot is listening to new user messages on `http://localhost:5000`, so let’s connect Botfuel Webchat to it!
 
 --sep--
+---
 title: Configure the Webchat
 duration: 7
---sep--
+---
 
 # Configure the Webchat
 
@@ -121,13 +122,14 @@ Then click on `Save`.
 You can check that your bot is properly connected to the Webchat by going to the Webchat Playground and sending some messages:
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/connecting-webchat/images/webchat-start-conversation.png" alt="Webchat starter conversation">
+<img src="https://github.com/Botfuel/tutorials/raw/master/connecting-webchat/images/webchat-starter-conversation.png" alt="Webchat starter conversation">
 </center>
 
 --sep--
+---
 title: Add the Webchat to your webpage
 duration: 5
---sep--
+---
 
 # Add the Webchat to your webpage
 
