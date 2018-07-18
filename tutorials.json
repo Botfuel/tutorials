@@ -7,7 +7,7 @@
   "tagline": "You will find here tutorials and examples that cover a whide range of Botfuel features such as testing, integration with different platforms, deployment, and modules. You will also find end to end chatbot example tutorials to build your own chatbot.",
   "tutorials": [
     {
-      "id": "getting-started",
+      "id": "connecting-webchat",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/connecting-webchat/connecting-webchat.md",
       "title": "Connecting Webchat",
       "duration": 50,
