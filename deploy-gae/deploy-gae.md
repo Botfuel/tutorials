@@ -231,9 +231,16 @@ title: Congratulations
 duration: 1
 ---
 
+# Congratulation
+
 You have reached the end of this tutorial. You can now deploy a bot in production and make your users test it \o/
 
-Learn more :
+## <i class="fas fa-heart"></i> Support us
+
+Did you have a good time using Botfuel to build Chatbots? You can support our developers by staring our open source SDK on <a href="https://github.com/Botfuel/botfuel-dialog" target="_blank">Github <i class="fab fa-github"></i></a>
+
+## Learn more
+
 * The SDK <a href="https://docs.botfuel.io/" target="_blank">documentation</a>
 * Deploy your chatbot on Heroku <a href="https://tutorials.botfuel.io/#/codelab/deploy-heroku?step=1" target="_blank">this tutorial</a>
 * Deploy your chatbot on Facebook Messenger with <a href="https://tutorials.botfuel.io/#/codelab/connect-messenger?step=1" target="_blank">this tutorial</a>
