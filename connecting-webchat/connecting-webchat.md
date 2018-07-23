@@ -199,5 +199,10 @@ duration: 1
 
 You have reached the end of this tutorial and have set up the Botfuel Webchat on your website and connected it with your chatbot!
 
-Learn More:
+## Support us
+
+Did you have a good time using Botfuel to build Chatbots? You can support us by starting our open source SDK on <a href="https://github.com/Botfuel/botfuel-dialog" target="_blank">Github <i class="fab fa-github"></i></a>
+
+## Lean more
+
 * Deploy your bot on Facebook Messenger with <a href="/#/codelab/connect-messenger" target="_blank">this tutorial</a>
