@@ -17,8 +17,8 @@ However, you may want to use an extractor based on regular expression.
 In this tutorial, you will learn how to create an extractor for French license plates using a RegexExtractor.
 
 ## You will need
-* To have complet the <a href="/#/codelab/getting-started" target="_blank">Getting Started tutorial</a>
-* A very basic understanding of Regular expressions (but don't panic, we said very basic!)
+* To have complete the <a href="/#/codelab/getting-started" target="_blank">Getting Started tutorial</a>
+* A very basic understanding of regular expressions (but don't panic, we said very basic!)
 
 --sep--
 ---
@@ -66,8 +66,8 @@ Our license plate can be separated into 5 sections :
 3. `999`: We use `[0-9]{2,3}` as we want to match any combination of 2 or 3 digits. (Scooters use 2 letters).
 4. `-`: Another literal dash character.
 5. `AA`: The last section is the same as the first one.
-
-Once we have our regular expression to extract a license plate, we can use is in our extractor
+g
+Once we have our regular expression to extract a license plate, we can use it in our extractor
 
 ## Use it in the RegexExtractor
 
@@ -76,7 +76,7 @@ Create a new file called `licenseplate-extractor.js` in the `extractors` folder 
 ```javascript
 const { RegexExtractor } = require('botfuel-dialog')
 
-class LicenePlateExtractor extends RegexExtractor {
+class LicensePlateExtractor extends RegexExtractor {
   constructor() {
     super({
       dimension: 'licenseplate',
@@ -85,7 +85,7 @@ class LicenePlateExtractor extends RegexExtractor {
   }
 }
 
-module.exports = LicenePlateExtractor
+module.exports = LicensePlateExtractor
 ```
 
 As you can see, creating a new RegexExtractor is very easy. You just need to specify a `dimension` that is going to be used in your dialog and the regex you want to match to extract your entities.
