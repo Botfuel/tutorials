@@ -1,6 +1,6 @@
 ---
 title: Identify License Plates with the RegexExtractor
-duration:
+duration: 31
 ---
 
 --sep--
@@ -93,7 +93,7 @@ As you can see, creating a new RegexExtractor is very easy. You just need to spe
 --sep--
 ---
 title: Use the extractor
-duration: 5
+duration: 15
 ---
 
 # Use the extractor
