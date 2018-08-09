@@ -1,5 +1,5 @@
 ---
-title: Identify Licence Plates with the RegexExtractor
+title: Identify License Plates with the RegexExtractor
 duration:
 ---
 
@@ -14,7 +14,7 @@ duration: 3
 Botfuel natively supports 31 built-in entities such as `forename`, `location`, `duration` and `url`. You can also create your own dictionary of custom entities using the <a href="https://docs.botfuel.io/dialog/reference/entities/custom-entities" target="_blank">CorpusExtractor</a> class.
 However, you may want to use an extractor based on regular expression.
 
-In this tutorial, you will learn how to create an extractor for French licence plates using a RegexExtractor.
+In this tutorial, you will learn how to create an extractor for French license plates using a RegexExtractor.
 
 ## You will need
 * To have complet the <a href="/#/codelab/getting-started" target="_blank">Getting Started tutorial</a>
@@ -22,25 +22,25 @@ In this tutorial, you will learn how to create an extractor for French licence p
 
 --sep--
 ---
-title: The French licence plate system
+title: The French license plate system
 duration: 4
 ---
 
-# The French licence plate system
+# The French license plate system
 
 The French license plate system (known as SIV for système d’immatriculation des véhicules) is used by all cars registered since 2009.
 
 <center>
-<img src="https://github.com/Botfuel/tutorials/raw/master/regex-imatriculation/images/licence-plate.png" alt="Regex explanation" title="Regex explanation"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/regex-imatriculation/images/license-plate.png" alt="Regex explanation" title="Regex explanation"/>
 </center>
 
 <aside class="infos">
-<b>Note:</b> Under the SIV system, licence plates contain seven alphanumeric characters: two letters, a dash, three numbers, a dash and two letters, such as AA-229-AA. The system is nationwide and chronological. The first car registered in France under the SIV received a AA-001-AA licence plate, the second one AA-002-AA, the third AA-003-AA. The system will be exhausted when ZZ-999-ZZ is reached, which is scheduled to occur after 80 years of use.
+<b>Note:</b> Under the SIV system, license plates contain seven alphanumeric characters: two letters, a dash, three numbers, a dash and two letters, such as AA-229-AA. The system is nationwide and chronological. The first car registered in France under the SIV received a AA-001-AA license plate, the second one AA-002-AA, the third AA-003-AA. The system will be exhausted when ZZ-999-ZZ is reached, which is scheduled to occur after 80 years of use.
 
 You can find more information on <a href="https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_France#SIV" target="_blank">Wikipedia</a>
 </aside>
 
-The SIV system makes is very easy to identify if a given string is a valid licence plate. However, as mentioned in wikipedia `The SIV format provides ((23 x 23) - 2) x 999 x ((23 x 23) - 1), or 277,977,744 different combinations`. Therefore, we don't recommend you build a corpus of entities with every possible combination...
+The SIV system makes is very easy to identify if a given string is a valid license plate. However, as mentioned in wikipedia `The SIV format provides ((23 x 23) - 2) x 999 x ((23 x 23) - 1), or 277,977,744 different combinations`. Therefore, we don't recommend you build a corpus of entities with every possible combination...
 
 --sep--
 ---
@@ -60,14 +60,14 @@ We mentioned in the introduction that you would need a basic understanding of re
 <img src="https://github.com/Botfuel/tutorials/raw/master/regex-imatriculation/images/regex.png" alt="Regex explanation" title="Regex explanation"/>
 </center>
 
-Our licence plate can be separated into 5 sections :
-1. `AA`: Here, we use `[A-Za-z]{2}` to match any combination of two letters between range `A-Z` or `a-z` as we don't want our extractor to be case sensitive. We want to extract the licence plate even if the user sends us one in lowercase.
+Our license plate can be separated into 5 sections :
+1. `AA`: Here, we use `[A-Za-z]{2}` to match any combination of two letters between range `A-Z` or `a-z` as we don't want our extractor to be case sensitive. We want to extract the license plate even if the user sends us one in lowercase.
 2. `-`: A literal dash character.
 3. `999`: We use `[0-9]{2,3}` as we want to match any combination of 2 or 3 digits. (Scooters use 2 letters).
 4. `-`: Another literal dash character.
 5. `AA`: The last section is the same as the first one.
 
-Once we have our regular expression to extract a licence plate, we can use is in our extractor
+Once we have our regular expression to extract a license plate, we can use is in our extractor
 
 ## Use it in the RegexExtractor
 
@@ -106,7 +106,7 @@ Got to <a href="https://app.botfuel.io" target="_blank">https://app.botfuel.io</
 <img src="https://github.com/Botfuel/tutorials/raw/master/regex-imatriculation/images/trainer.png" alt="intent in trainer" title="Intent in trainer"/>
 </center>
 
-Add a few training phrases the user may enter to give you his licence plate.
+Add a few training phrases the user may enter to give you his license plate.
 
 ## Create the Dialog
 
@@ -146,11 +146,11 @@ class LicensePlateView extends PromptView {
 
     if (licensePlate) {
       return [
-        new BotTextMessage(`Thanks, your licence plate is ${licensePlate.toUpperCase()}.`),
+        new BotTextMessage(`Thanks, your license plate is ${licensePlate.toUpperCase()}.`),
       ];
     }
 
-    return [new BotTextMessage(`Sorry, I did not understand your licence plate.`)];
+    return [new BotTextMessage(`Sorry, I did not understand your license plate.`)];
   }
 }
 
