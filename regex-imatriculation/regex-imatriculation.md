@@ -80,7 +80,7 @@ class LicenePlateExtractor extends RegexExtractor {
   constructor() {
     super({
       dimension: 'licenseplate',
-      regex: /[A-Za-z]{1,2}-[0-9]{2,3}-[A-Za-z]{1,2}/
+      regex: /[A-Za-z]{2}-[0-9]{2,3}-[A-Za-z]{2}/
     })
   }
 }
