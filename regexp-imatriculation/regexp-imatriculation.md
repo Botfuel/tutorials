@@ -30,6 +30,9 @@ duration: 4
 
 Shorted SIV for <i>système d'immatriculation des véhicules</i>, the French vehicle registration system is used by all cars registered since 2009.
 
+<center>
+<img src="https://github.com/Botfuel/tutorials/raw/master/regexp-imatriculation/images/licence-plate.png" alt="Regex explanation" title="Regex explanation"/>
+</center>
 
 <aside class="infos">
 <b>Note:</b> Under the SIV system, registration plates contain seven alphanumeric characters: two letters, a dash, three numbers, a dash and two letters, such as AA-229-AA. The system is nationwide and chronological. The first car registered in France under the SIV received a AA-001-AA registration plate, the second one AA-002-AA, the third AA-003-AA. The system will be exhausted when ZZ-999-ZZ is reached, which is scheduled to occur after 80 years of use.
