@@ -62,7 +62,7 @@ Our licence plate is separated in 5 sections :
 
 
 <center>
-<img src="images/regex.png" alt="Regex explanation" title="Regex explanation"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/regexp-imatriculation/images/regex.png" alt="Regex explanation" title="Regex explanation"/>
 </center>
 
 Once we have our regular expression to extract a licence plate, we can use is in our extractor
@@ -101,7 +101,7 @@ duration: 5
 Got to <a href="https://app.botfuel.io" target="_blank">https://app.botfuel.io</a>, open your project and create a new intent called `licenceplate`
 
 <center>
-<img src="images/trainer.png" alt="intent in trainer" title="Intent in trainer"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/regexp-imatriculation/images/trainer.png" alt="intent in trainer" title="Intent in trainer"/>
 </center>
 
 Add a few training phrases the user may enter to give you his licence plate.
@@ -165,7 +165,7 @@ BOTFUEL_APP_TOKEN=<the BOTFUEL_APP_TOKEN> BOTFUEL_APP_ID=<the BOTFUEL_APP_ID> BO
 
 You can then try your new intent in your bot.
 <center>
-<img src="images/terminal.png" alt="Bot test in terminal" title="Bot test in terminal"/>
+<img src="https://github.com/Botfuel/tutorials/raw/master/regexp-imatriculation/images/terminal.png" alt="Bot test in terminal" title="Bot test in terminal"/>
 </center>
 
 --sep--
