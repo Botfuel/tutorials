@@ -160,7 +160,7 @@ You have reached the end of this tutorial. You can now deploy a bot in productio
 
 ## <i class="fas fa-heart"></i> Support us
 
-Did you have a good time using Botfuel to build Chatbots? You can support our developers by staring our open source SDK on <a href="https://github.com/Botfuel/botfuel-dialog" target="_blank">Github <i class="fab fa-github"></i></a>
+Did you have a good time using Botfuel to build Chatbots? You can support our developers by starring our open source SDK on <a href="https://github.com/Botfuel/botfuel-dialog" target="_blank">Github <i class="fab fa-github"></i></a>
 
 
 ## Learn more

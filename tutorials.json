@@ -12,9 +12,9 @@
   },
   "tutorials": [
     {
-      "id": "regexp-imatriculation",
-      "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/regexp-imatriculation/regexp-imatriculation.md",
-      "title": "Identify vehicle registration plates with the RegexExtractor",
+      "id": "regex-imatriculation",
+      "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/regex-imatriculation/regex-imatriculation.md",
+      "title": "Identify Licence Plates with the RegexExtractor",
       "duration": 50,
       "language": "en",
       "date": "Mon Aug 9 2018 00:00:00 GMT+0100",
@@ -32,7 +32,7 @@
     {
       "id": "getting-started",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/getting-started/getting-started.md",
-      "title": "Getting started",
+      "title": "Getting Started",
       "duration": 19,
       "language": "en",
       "date": "Sun Jan 01 2017 00:00:00 GMT+0100",
@@ -41,7 +41,7 @@
     {
       "id": "weather-bot",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/weather-bot/weather-bot.md",
-      "title": "Faire un bot de météo",
+      "title": "Faire un Bot de Météo",
       "duration": 76,
       "language": "fr",
       "date": "Fri Jun 29 2018 00:00:00 GMT+0200",
@@ -77,7 +77,7 @@
     {
       "id": "qna-bot",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/qna-bot/qna-bot.md",
-      "title": "Create a Q&A bot",
+      "title": "Create a Q&A Bot",
       "duration": 30,
       "language": "en",
       "date": "Sun Jan 01 2017 00:00:00 GMT+0100",
@@ -86,7 +86,7 @@
     {
       "id": "integration-testing",
       "markdownUrl": "https://raw.githubusercontent.com/Botfuel/tutorials/master/integration-testing/integration-testing.md",
-      "title": "Integration testing",
+      "title": "Integration Testing",
       "duration": 18,
       "language": "en",
       "date": "Sun Jan 01 2017 00:00:00 GMT+0100",
