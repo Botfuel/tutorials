@@ -1,6 +1,13 @@
 {
   "theme": {
-    "main": "#2bb673"
+    "primary": {
+      "background": "#2bb673",
+      "text": "#fff"
+    },
+    "accent": {
+      "background": "#533d88",
+      "text": "#fff"
+    }
   },
   "title": "Botfuel Tutorials",
   "headline": "Welcome to Botfuel Tutorials Platform !",
@@ -10,6 +17,38 @@
     "github": "https://github.com/Botfuel/botfuel-dialog",
     "documentation": "https://docs.botfuel.io/"
   },
+  "footer": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "title": "Website",
+          "link": "https://www.botfuel.io"
+        },
+        {
+          "title": "We are hiring",
+          "link": "https://www.welcometothejungle.co/companies/botfuel/jobs"
+        },
+        {
+          "title": "Contact us",
+          "link": "https://www.botfuel.io/en/more/contact"
+        }
+      ]
+    },
+    {
+      "title": "Developers",
+      "links": [
+        {
+          "title": "Portal",
+          "link": "https://app.botfuel.io"
+        },
+        {
+          "title": "Documentation",
+          "link": "https://docs.botfuel.io"
+        }
+      ]
+    }
+  ],
   "tutorials": [
     {
       "id": "regex-imatriculation",
