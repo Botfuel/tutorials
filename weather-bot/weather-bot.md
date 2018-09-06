@@ -587,6 +587,21 @@ Vous avez atteint la fin de ce tutoriel. Vous avez su prendre en main certains d
 
 Vous êtes maintenant en mesure de faire un bot en utilisant le SDK de Botfuel.
 
+<center>
+  <img src="https://github.com/Botfuel/tutorials/raw/master/images/congratulation-cap.png">
+  <div>Partagez votre réussite!</div>
+  <div>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Je viens de finir le tutoriel 'Faire un chatbot de météo' avec @Botfuel https://tutorials.botfuel.io/%23/codelab/weather-bot" target="_blank"><i class="fab fa-twitter"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://tutorials.botfuel.io/%23/codelab/weather-bot&quote=Je viens de finir le tutoriel 'Faire un chatbot de météo' avec @Botfuel " target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;"  title="Share in Linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tutorials.botfuel.io/%23/codelab/weather-bot&title=Butfuel tutorial&summary=Je viens de finir le tutoriel 'Faire un chatbot de météo' avec @Botfuel &source=LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </button>
+  </div>
+</center>
 
 ## <i class="fas fa-heart"></i> Nous supporter
 

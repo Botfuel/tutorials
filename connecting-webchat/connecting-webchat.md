@@ -199,6 +199,22 @@ duration: 1
 
 You have reached the end of this tutorial and have set up the Botfuel Webchat on your website and connected it with your chatbot!
 
+<center>
+  <img src="https://github.com/Botfuel/tutorials/raw/master/images/congratulation-cap.png">
+  <div>Share your accomplishment!</div>
+  <div>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Twitter">
+      <a href="https://twitter.com/intent/tweet?text=I just completed the tutorial 'Create a Webchat chatbot' on @Botfuel https://tutorials.botfuel.io/%23/codelab/connecting-webchat" target="_blank"><i class="fab fa-twitter"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://tutorials.botfuel.io/%23/codelab/connecting-webchat&quote=I just completed the tutorial 'Create a Webchat chatbot' on @Botfuel" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;"  title="Share in Linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tutorials.botfuel.io/%23/codelab/connecting-webchat&title=Butfuel tutorial&summary=I just completed the tutorial 'Create a Webchat chatbot' on @Botfuel&source=LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </button>
+  </div>
+</center>
+
 ## <i class="fas fa-heart"></i> Support us
 
 Did you have a good time using Botfuel to build Chatbots? You can support our developers by starring our open source SDK on <a href="https://github.com/Botfuel/botfuel-dialog" target="_blank">Github <i class="fab fa-github"></i></a>
