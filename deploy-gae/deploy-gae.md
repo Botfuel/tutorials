@@ -219,7 +219,7 @@ gcloud app deploy
 ```
 
 You bot is now deployed and ready to be used. Simply go to the url of your bot followed by `/static`. In our case `https://getting-started-209712.appspot.com/static/` and you will be able to talk to your bot
-=
+
 <center>
 <img src="https://github.com/Botfuel/tutorials/raw/master/deploy-gae/images/webchat-live.png">
 </center>
@@ -234,6 +234,28 @@ duration: 1
 # Congratulation
 
 You have reached the end of this tutorial. You can now deploy a bot in production and make your users test it \o/
+
+<center>
+  <img src="https://github.com/Botfuel/tutorials/raw/master/images/congratulation-cap.png" style="margin: 2em 0;">
+  <div>Share your acomplishment</div>
+  <div>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Twitter">
+      <a href="https://twitter.com/intent/tweet?text=I just completed the tutorial 'Deploying your chatbot on Google App Engine' on @Botfuel \o/ https://tutorials.botfuel.io/%23/codelab/deploy-gae" target="_blank"><i class="fab fa-twitter"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;" title="Share in Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://tutorials.botfuel.io/%23/codelab/deploy-gae&quote=I just completed the tutorial 'Deploying your chatbot on Google App Engine' on @Botfuel \o/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </button>
+    <button style="width: 50px; height: 50px; border: none; background: transparent; margin: 7px; font-size: 24px;"  title="Share in Linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tutorials.botfuel.io/%23/codelab/deploy-gae&title=Butfuel tutorial&summary=I just completed the tutorial 'Deploying your chatbot on Google App Engine' on @Botfuel&source=LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </button>
+  </div>
+</center>
+
+
+
+
+
+
 
 ## <i class="fas fa-heart"></i> Support us
 
