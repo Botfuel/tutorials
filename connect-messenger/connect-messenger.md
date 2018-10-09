@@ -45,46 +45,6 @@ Locate the forwarding link (in our case `https://3efeb72c.ngrok.io`). All reques
 
 --sep--
 ---
-title: Set up the Facebook App
-duration: 10
----
-
-## Set up the Facebook App
-
-To setup your chatbot on Facebook Messenger, you need three things:
-
-* A Facebook Page that will be used as the identity of your bot: https://www.facebook.com/pages/create
-* A Facebook for Developers account: https://developers.facebook.com/
-* A Facebook App
-
-We will cover only the configuration of the Facebook App in this tutorial.
-For other the two first steps, please follow the tutorial [here](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).
-Make note of the **page access token** (`FB_PAGE_ACCESS_TOKEN`) given to you. We will use it to connect your chatbot to Messenger.
-
-Once your app is created, we need to setup our bot endpoint as the Messenger webhook callback URL.
-Go to your Facebook App and click on Webhooks in the side menu:
-
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-menu.png" alt="Messenger Apps Menu"/>
-
-Then click on the `Edit Subscription` button:
-
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-webhook.png" alt="Messenger Webhook"/>
-
-Set the `Callback URL` field to `<NGROK_URL>/webhook`:
-
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-url.png" alt="Messenger URL"/>
-
-Make sure that you added `/webhook` at the end of the URL.
-Set the `Verify Token` field to the value of your choice (it can be whatever you want, as long as you use the same value when running the bot in a later step) and make note of it then click on `Verify and Save`.
-
-We will refer to the **Verify Token** as `FB_VERIFY_TOKEN`.
-
-Also, make sure your app has subscribed to messages:
-
-<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-messages.png" alt="Messenges subscription"/>
-
---sep--
----
 title: Set up the bot
 duration: 10
 ---
@@ -142,6 +102,45 @@ If you set your app credentials and the config file correctly, you should see:
 
 It means your bot is listening to new user messages on `http://localhost:5000` (and `<NGROK_URL>` thanks to ngrok).
 
+--sep--
+---
+title: Set up the Facebook App
+duration: 10
+---
+
+## Set up the Facebook App
+
+To setup your chatbot on Facebook Messenger, you need three things:
+
+* A Facebook Page that will be used as the identity of your bot: https://www.facebook.com/pages/create
+* A Facebook for Developers account: https://developers.facebook.com/
+* A Facebook App
+
+We will cover only the configuration of the Facebook App in this tutorial.
+For other the two first steps, please follow the tutorial [here](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).
+Make note of the **page access token** (`FB_PAGE_ACCESS_TOKEN`) given to you. We will use it to connect your chatbot to Messenger.
+
+Once your app is created, we need to setup our bot endpoint as the Messenger webhook callback URL.
+Go to your Facebook App and click on Webhooks in the side menu:
+
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-menu.png" alt="Messenger Apps Menu"/>
+
+Then click on the `Edit Subscription` button:
+
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-webhook.png" alt="Messenger Webhook"/>
+
+Set the `Callback URL` field to `<NGROK_URL>/webhook`:
+
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-url.png" alt="Messenger URL"/>
+
+Make sure that you added `/webhook` at the end of the URL.
+Set the `Verify Token` field to the value of your choice (it can be whatever you want, as long as you use the same value when running the bot in a later step) and make note of it then click on `Verify and Save`.
+
+We will refer to the **Verify Token** as `FB_VERIFY_TOKEN`.
+
+Also, make sure your app has subscribed to messages:
+
+<img src="https://github.com/Botfuel/tutorials/raw/master/connect-messenger/images/messenger-messages.png" alt="Messenges subscription"/>
 
 --sep--
 ---
