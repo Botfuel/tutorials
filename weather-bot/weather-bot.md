@@ -399,7 +399,7 @@ npm install node-fetch --save
 Vous allez devoir appeler l'<a href="https://developer.worldweatheronline.com/api/docs/" target="_blank">API worldweatheronline</a> afin de récupérer les informations météorologiques.
 
 ```javascript
-const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=8c021b4e600b4cd8b24194452182606&q=${location}&format=json&date=${formattedDate}&lang=fr`);      
+const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=4cb957ddc2b84ab29a3151553181510&q=${location}&format=json&date=${formattedDate}&lang=fr`);      
       const data = await response.json();
       const weatherData = data.data;
 ```
@@ -414,7 +414,7 @@ class MeteoDialog extends PromptDialog {
       const formattedDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
       const location = matchedEntities.location && matchedEntities.location.values[0].value;
 
-      const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=8c021b4e600b4cd8b24194452182606&q=${location}&format=json&date=${formattedDate}&lang=fr`);      
+      const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=4cb957ddc2b84ab29a3151553181510&q=${location}&format=json&date=${formattedDate}&lang=fr`);      
       const data = await response.json();
       const weatherData = data.data;
 
