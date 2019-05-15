@@ -50,7 +50,7 @@ module.exports = {
 
 This will simply tell your bot to use the Botfuel Webchat adapter.
 
-Edit your package.json and modify the start command to specify the config file we want to use when we launch the bot. When  you deploy your app, Google App Engine will run `npm install` or `yarn install` automaticaly and will use the `start` script to launch your app.
+Edit your package.json and modify the start command to specify the config file we want to use when we launch the bot. When  you deploy your app, Google App Engine will run `npm install` automatically and will use the `start` script to launch your app.
 
 ```javascript
 "scripts": {

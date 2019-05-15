@@ -103,7 +103,7 @@ In a new folder, create a new file named `package.json`:
 }
 ```
 
-Then run `yarn install`.
+Then run `npm install`.
 
 <aside class="infos">You can also combine Q&As and intent handles by the SDK.</aside>
 
