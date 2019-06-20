@@ -359,7 +359,7 @@ class MeteoView extends PromptView {
   render(userMessage, { matchedEntities, missingEntities, weatherData }) {
     const messages = [];
 
-    // On commencer par récupérer les valeurs extraites pour la ville et la date si ceux-ci ont été renseignés
+    // On commence par récupérer les valeurs extraites pour la ville et la date si celles-ci ont été renseignées
     const location = matchedEntities.location && matchedEntities.location.values[0].value;
     const date = matchedEntities.date && new Date(matchedEntities.date.values[0].milliseconds);
 
@@ -399,6 +399,7 @@ npm install node-fetch --save
 Vous allez devoir appeler l'<a href="https://developer.worldweatheronline.com/api/docs/" target="_blank">API worldweatheronline</a> afin de récupérer les informations météorologiques.
 
 ```javascript
+const fetch = require("node-fetch");
 const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=4cb957ddc2b84ab29a3151553181510&q=${location}&format=json&date=${formattedDate}&lang=fr`);      
       const data = await response.json();
       const weatherData = data.data;
@@ -407,6 +408,7 @@ const response = await fetch(`http://api.worldweatheronline.com/premium/v1/weath
 Commencez par récupérer les entités extraites dans `meteo-dialog.js` et pensez à vérifier que l'utilisateur a bien rentré toutes les informations nécessaires pour faire l'appel à l'API.
 
 ```javascript
+const fetch = require("node-fetch");
 class MeteoDialog extends PromptDialog {
   async dialogWillDisplay(userMessage, { matchedEntities, missingEntities }) {
     if (missingEntities.size === 0) {

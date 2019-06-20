@@ -48,7 +48,7 @@ Once you have created an account and are logged in, create an app by clicking on
 
 ![Creating an app](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-create_app.png "Creating an app")
 
-Give your app a namem, an optional description, and select a language.
+Give your app a name, an optional description, and select a language.
 
 The language determines what language your bot will understand. Under the hood, our NLP APIs behave differently based on the language you choose. You won’t be able to change it later, so choose carefully!
 
