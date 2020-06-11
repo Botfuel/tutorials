@@ -74,7 +74,7 @@ duration: 7
 
 # Configure the Webchat
 
-Go to the Webchat configuration page on the <a href="https://app.botfuel.io/" target="_blank">Botfuel Developer Portal</a>:
+Go to the Webchat configuration page on the <a href="https://platform-app.botfuel.io/" target="_blank">Botfuel Developer Portal</a>:
 
 <center>
 <img src="https://github.com/Botfuel/tutorials/raw/master/connecting-webchat/images/webchat-config.png" alt="Webchat configuration tab" />

@@ -38,7 +38,7 @@ We will create a Botfuel App and use <a href="https://docs.botfuel.io/trainer/ov
 
 ## Create a Botfuel developer account
 
-Visit the [Botfuel Developer Portal](https://app.botfuel.io/) and create an account:
+Visit the [Botfuel Developer Portal](https://platform-app.botfuel.io/) and create an account:
 
 ![Sign up](https://github.com/Botfuel/tutorials/raw/master/getting-started/images/getting_started-signup.png "Sign up")
 

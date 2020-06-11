@@ -133,7 +133,7 @@ duration: 5
 
 # See it in action
 
-Now, to see it in action in the Botfuel Webchat, go to the <a href="https://app.botfuel.io">Botfuel Developer Portal</a> and login.
+Now, to see it in action in the Botfuel Webchat, go to the <a href="https://platform-app.botfuel.io">Botfuel Developer Portal</a> and login.
 
 Select your bot app and go to the `Channel > Webchat` page.
 

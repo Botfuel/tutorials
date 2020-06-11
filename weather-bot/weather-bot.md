@@ -47,8 +47,8 @@ duration: 7
 
 # Mise en place
 
-1. Allez créer un compte sur <a href="https://app.botfuel.io/apps" target="_blank">https://app.botfuel.io/apps</a>
-2. Puis créez une app sur <a href="https://app.botfuel.io/apps/create" target="_blank">https://app.botfuel.io/apps/create</a>
+1. Allez créer un compte sur <a href="https://platform-app.botfuel.io/apps" target="_blank">https://platform-app.botfuel.io/apps</a>
+2. Puis créez une app sur <a href="https://platform-app.botfuel.io/apps/create" target="_blank">https://platform-app.botfuel.io/apps/create</a>
 
 Vous pourrez trouver un guide pour créer une App <a href="https://tutorials.botfuel.io#/codelab/getting-started?step=2" target="_blank">ici</a>
 <aside class="infos"><b>Note:</b> La langue choisie  lors de la création du Bot ne peut être changée par la suite. Elle sera utilisée par le trainer pour comprendre les "Training Phrases".</aside>
@@ -152,7 +152,7 @@ La dernière ligne indique que votre bot écoute les messages sur `http://localh
 
 ## Affichage dans le webchat
 
-Rendez-vous dans la partie `Channel > Webchat` de votre bot sur <a href="https://app.botfuel.io" target="_blank">https://app.botfuel.io</a>
+Rendez-vous dans la partie `Channel > Webchat` de votre bot sur <a href="https://platform-app.botfuel.io" target="_blank">https://platform-app.botfuel.io</a>
 
 <center>
 <img src="https://github.com/Botfuel/tutorials/raw/master/weather-bot/images/webchat-config.png" />

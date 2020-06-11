@@ -100,7 +100,7 @@ duration: 15
 
 ## Trainer
 
-Got to <a href="https://app.botfuel.io" target="_blank">https://app.botfuel.io</a>, open your project and create a new intent called `licenseplate`
+Got to <a href="https://platform-app.botfuel.io" target="_blank">https://platform-app.botfuel.io</a>, open your project and create a new intent called `licenseplate`
 
 <center>
 <img src="https://github.com/Botfuel/tutorials/raw/master/regex-imatriculation/images/trainer.png" alt="intent in trainer" title="Intent in trainer"/>
